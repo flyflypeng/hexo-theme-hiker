@@ -5,10 +5,10 @@
 # Header Menu
 menu:
   主页: /
-  归档: archives
-  分类: categories
-  标签: tags
-  关于: about
+  归档: /archives
+  分类: /categories
+  标签: /tags
+  关于: /about
 rss: /atom.xml
 
 since: 2019
@@ -116,9 +116,9 @@ theme_color: green
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive
+ - category
+ - tagcloud
+ - archive
 
 
 # widget behavior
