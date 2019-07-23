@@ -4,14 +4,14 @@
 
 # Header Menu
 menu:
-  Home: /
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  主页: /
+  归档: archives
+  分类: categories
+  标签: tags
+  关于: about
 rss: /atom.xml
 
-since: 2013
+since: 2019
 
 # Set default keywords (Use a comma to separate)
 keywords: ""
@@ -19,26 +19,26 @@ keywords: ""
 # Put your favicon.ico or avatar.jpg into `hexo-site/themes/hiker/source/` directory.
 avatar: 
   enable: true
-  border: true
+  border: false
   width: 124
   height: 124
   top: 0
-  url: css/images/mylogo.jpg
+  url: css/images/isula.jpeg
 
 
 # Homepage
 # eg. home_background_image: [css/images/home-bg.jpg, http://t.cn/RMbvEza]
 # eg. mode: image | polyline | trianglify
 home_background_image:
-  enable: true
+  enable: false
   mode: image
   rolling: true
   url: [css/images/home-bg.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
 
 home_logo_image:
-  enable: false
+  enable: true
   border: false
-  url: css/images/homelogo.jpg
+  url: css/images/isula.jpeg
 
 
 # AboutPage background
@@ -63,13 +63,12 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- social
 - category
 - tag
 - tagcloud
 - archive
 - recent_posts
-
+# - social
 
 # Social Links
 # Key is the name of FontAwsome icon.
@@ -97,7 +96,7 @@ search:
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname: 
 disqus_shortname: 
-livere_shortname: MTAyMC8yOTQ4MS82MDQ5
+livere_shortname: #MTAyMC8yOTQ4MS82MDQ5
 uyan_uid: 
 wumii: 
 
@@ -106,13 +105,13 @@ wumii:
 # Available value:
 #    default | gray | normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: default
+highlight_theme: night
 
 
 # Article theme color
 # Available value:
 #    random | orange | blue | red | green | black
-theme_color: random
+theme_color: green
 
 
 # display widgets at the bottom of index pages (pagination == 2)
@@ -161,14 +160,14 @@ show_busuanzi_view_counts: true
 
 # donation button
 donate:
-    enable: true
+    enable: false
     message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
     wechatImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png
     alipayImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg
     
 # post copyright
 copyright:
-    enable: true
+    enable: false
 
 # post edit url, modify your post online for convenience
 # If you put your blog on GitHub, it should look like:
